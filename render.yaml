@@ -3,7 +3,7 @@ services:
   - type: web
     name: frontend
     runtime: docker
-    repo: git@github.com:dung060103/frontend-todo-app.git # optional
+    repo: https://github.com/dung060103/frontend-todo-app.git # optional
     region: oregon # optional (defaults to oregon)
     plan: standard # optional (defaults to starter instance type)
     branch: master # optional (defaults to master)
@@ -15,7 +15,7 @@ services:
   - type: web
     name: backend
     runtime: docker
-    repo: git@github.com:dung060103/backend-todo-app.git # optional
+    repo: https://github.com/dung060103/backend-todo-app.git # optional
     region: oregon # optional (defaults to oregon)
     plan: standard # optional (defaults to starter instance type)
     branch: master # optional (defaults to master)
